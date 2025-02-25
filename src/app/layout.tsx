@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 import { Inter as FontSans } from "next/font/google"
 import { cn } from "@/lib/utils"
-import "../globals.css"
-import Navbar from "../_components/Navbar"
-import Headbar from "../_components/Headbar"
+import "./globals.css"
+import Navbar from "./_components/Navbar"
+import Headbar from "./_components/Headbar"
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -58,7 +58,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head />
       <body
         className={cn(
-          "h-screen w-screen overflow-hidden relative font-sans antialiased",
+          "min-h-screen w-screen overflow-x-hidden overflow-y-auto relative font-sans antialiased",
           fontSans.variable
         )}
       >

@@ -1,3 +1,9 @@
+import HomeHero from "./_components/Hero"
+
 export default function Home() {
-  return <></>
+  return (
+    <div className="w-full">
+      <HomeHero />
+    </div>
+  )
 }
