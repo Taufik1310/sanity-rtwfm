@@ -62,8 +62,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
           fontSans.variable
         )}
       >
-        <Headbar />
-        <Navbar />
+        <header className="sticky top-0 z-50 w-full">
+          <Headbar />
+          <Navbar />
+        </header>
         {children}
       </body>
     </html>
