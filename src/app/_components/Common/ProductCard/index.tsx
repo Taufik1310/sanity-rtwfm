@@ -17,7 +17,7 @@ export default function ProductCard({
       <figure className="group-hover:opacity-90 relative aspect-square h-6/12">
         <Image
           className="object-contain"
-          src={`/product/images/${thumbnail}`}
+          src={`/images/product/${thumbnail}`}
           alt={name}
           fill
         />
