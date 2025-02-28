@@ -8,7 +8,7 @@ export default function HomeHero() {
         src={"/assets/images/hero-banner.jpg"}
         alt="Sanity Hero 1"
         fill
-        className="object-cover brightness-[.3]"
+        className="object-cover brightness-[.35]"
       />
       <HomeHeroContent />
     </div>

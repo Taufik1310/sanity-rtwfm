@@ -4,7 +4,7 @@ import HomeProducts from "./_components/Products"
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col gap-16 mb-16">
+    <div className="w-full flex flex-col gap-16">
       <HomeHero />
       <HomeProducts />
       <HomeCarousel />

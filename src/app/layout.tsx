@@ -5,6 +5,7 @@ import "./globals.css"
 import Navbar from "./_components/Navbar"
 import Headbar from "./_components/Headbar"
 import Footer from "./_components/Footer"
+import CTAWhatsapp from "./_components/CTA"
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -67,8 +68,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Headbar />
           <Navbar />
         </header>
-        {children}
+        <main className="w-full mb-16">{children}</main>
         <Footer />
+        <CTAWhatsapp />
       </body>
     </html>
   )
