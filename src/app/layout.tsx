@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils"
 import "./globals.css"
 import Navbar from "./_components/Navbar"
 import Headbar from "./_components/Headbar"
+import Footer from "./_components/Footer"
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Navbar />
         </header>
         {children}
+        <Footer />
       </body>
     </html>
   )
