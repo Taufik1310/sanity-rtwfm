@@ -1,6 +1,6 @@
 const PRODUCTS = [
   {
-    id: 1,
+    id: "sanity-black-t-shirt-drop-2025",
     name: "SANITY BLACK T-SHIRT DROP [2025]",
     price: 130000,
     description:
@@ -13,7 +13,7 @@ const PRODUCTS = [
     sizes: ["S", "M", "L", "XL"],
   },
   {
-    id: 1,
+    id: "sanity-white-t-shirt-drop-2025",
     name: "SANITY WHITE T-SHIRT DROP [2025]",
     price: 130000,
     description:
@@ -29,4 +29,8 @@ const PRODUCTS = [
 
 export function GetAllProduct() {
   return PRODUCTS
+}
+
+export function GetDetailProduct(id: string) {
+  return PRODUCTS.find((product) => product.id === id) || null
 }
