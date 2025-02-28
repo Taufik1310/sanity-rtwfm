@@ -27,4 +27,6 @@ const PRODUCTS = [
   },
 ]
 
-export default PRODUCTS
+export function GetAllProduct() {
+  return PRODUCTS
+}

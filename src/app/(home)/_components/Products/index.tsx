@@ -3,17 +3,16 @@ import Link from "next/link"
 import ProductCard from "@/app/_components/Common/ProductCard"
 import Typography from "@/components/Typography"
 import { Button } from "@/components/ui/button"
+import { GetAllProduct } from "@/data/products"
 
-import PRODUCTS from "@/data/products"
-
-const productList = PRODUCTS
+const PRODUCTS = GetAllProduct()
 
 export default function HomeProducts() {
   return (
     <div className="w-full flex flex-col items-center gap-12 text-center px-8">
       <Typography size="title" weight="extrabold" text="ALL PRODUCT" />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center gap-8">
-        {productList?.map((product, index) => (
+        {PRODUCTS?.map((product, index) => (
           <ProductCard
             key={index}
             id={product.id}
