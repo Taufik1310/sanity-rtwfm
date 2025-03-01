@@ -19,27 +19,27 @@ type RootLayoutProps = {
 export const metadata: Metadata = {
   title: "Sanity RTWFM | Recover the World From Madness",
   description:
-    "Discover sustainable and meaningful clothing at Sanity.rtwfm. Join us in recovering the world from madness through mindful fashion.",
+    "Discover sustainable and meaningful clothing at Sanity RTWFM. Join us in recovering the world from madness through mindful fashion.",
   keywords: [
     "sustainable clothing",
     "mental health apparel",
     "eco-friendly fashion",
     "mindful fashion",
-    "Sanity.rtwfm",
+    "Sanity RTWFM",
     "recover the world",
   ],
   openGraph: {
-    title: "Sanity.rtwfm | Recover the World From Madness",
+    title: "Sanity RTWFM | Recover the World From Madness",
     description:
-      "Discover sustainable and meaningful clothing at Sanity.rtwfm. Join us in recovering the world from madness through mindful fashion.",
+      "Discover sustainable and meaningful clothing at Sanity RTWFM. Join us in recovering the world from madness through mindful fashion.",
     url: "https://www.sanityrtwfm.com",
-    siteName: "Sanity.rtwfm",
+    siteName: "Sanity RTWFM",
     images: [
       {
-        url: "https://www.sanityrtwfm.com/og-image.jpg", // Ganti dengan URL gambar Open Graph Anda
+        url: "/assets/images/logo/logo-primary-white.png",
         width: 1200,
         height: 630,
-        alt: "Sanity.rtwfm - Mindful Fashion",
+        alt: "Sanity RTWFM - Mindful Fashion",
       },
     ],
     locale: "en_US",
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sanity.rtwfm | Recover the World From Madness",
+    title: "Sanity RTWFM | Recover the World From Madness",
     description:
-      "Discover sustainable and meaningful clothing at Sanity.rtwfm. Join us in recovering the world from madness through mindful fashion.",
+      "Discover sustainable and meaningful clothing at Sanity RTWFM. Join us in recovering the world from madness through mindful fashion.",
     images: ["https://www.sanityrtwfm.com/og-image.jpg"], // Ganti dengan URL gambar Twitter Anda
   },
 }
